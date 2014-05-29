@@ -1,0 +1,47 @@
+/*
+    Document   : styles
+    Created on : 26.5.2014, 15:40:42
+    Author     : Adam
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font-size: 20px;
+}
+
+#wrapper {
+    width: 700px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+#wrapper table tbody tr td {
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+#leftPanel {
+    width: 300px;
+    float: left;
+}
+
+#rightPanel {
+    width: 400px;
+    float: right;
+}
+
+#rightPanel ul {
+    padding-left: 0px;
+}
+
+#rightPanel ul li {
+    list-style: none;
+}
+
+a { text-decoration: none }
+a:link { background-color:#C0C0C0; }
+a:visited { background-color:#FFFF85; }
+a:hover { background-color:#FF704D; }
+a:active { background-color:#FF704D; }
+
